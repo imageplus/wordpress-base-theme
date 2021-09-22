@@ -1,0 +1,7 @@
+@mixin button($background: primary, $color: white, $border-color: transparent, $hover-background: primary, $hover-color: white, $hover-border-color: transparent){
+    @apply bg-#{$background} text-#{$color} border-#{$border-color};
+
+    &:hover {
+        @apply bg-#{$hover-background} text-#{$hover-color} border-#{$hover-border-color};
+    }
+}

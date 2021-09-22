@@ -1,0 +1,35 @@
+.search-result {
+    @apply border flex border-primary mb-6 rounded;
+
+    &--odd {
+
+    }
+
+    &--even {
+
+    }
+
+    &__container {
+        @apply px-3 py-2;
+    }
+
+    &__title {
+        @apply text-3xl font-bold;
+    }
+
+    &__content {
+        @apply my-3;
+    }
+
+    &__image {
+        &-container {
+
+        }
+    }
+
+    &__link {
+        &-container {
+            @apply mt-2;
+        }
+    }
+}

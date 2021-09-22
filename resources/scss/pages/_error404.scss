@@ -1,0 +1,14 @@
+//the site wrapper need this height assigned so we can vertically align the 404 message
+.error404 #page {
+    @apply flex flex-col;
+
+    //theme('minHeight.screen') doesn't exist so 100vh in its place
+    min-height: calc(100vh - var(--admin-bar-height));
+
+    //this wants to fill the remaining space
+    #site-content {
+        @apply flex flex-grow flex-col;
+
+
+    }
+}

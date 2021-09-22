@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "variables";
+
+@import "mixins/mixins";
+
+@import "helpers/helpers";
+
+@import "pages/pages";
+
+@import "partials/partials";

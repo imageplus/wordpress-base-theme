@@ -1,0 +1,19 @@
+/**
+    Defines the button variants used throughout the scss
+    The colours here must be compatible with tailwinds @apply function
+    so bg-{colour} text-{colour} border-{colour} classes must exist
+
+    @see ./mixins/_btn
+    @see ./partials/_btn
+ */
+$btn-variants: (
+    //"variant-name" : (background, color, border-color, hover-background, hover-color, hover-border-color)
+
+    //Primary Buttons
+        "primary"              : (primary, white, primary, transparent, primary, primary),
+        "transparent-primary"  : (transparent, primary, primary, primary, white, transparent),
+
+    //Secondary Buttons
+        "secondary"            : (secondary, white, secondary, transparent, secondary, secondary),
+        "transparent-secondary": (transparent, secondary, secondary, secondary, white, transparent),
+);

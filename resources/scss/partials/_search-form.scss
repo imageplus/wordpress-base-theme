@@ -1,0 +1,10 @@
+/**
+    Used by the searchform.php template file
+ */
+.search-form {
+    @apply my-4;
+
+    &__label {
+        @apply inline-block;
+    }
+}

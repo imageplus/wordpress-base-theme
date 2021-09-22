@@ -1,0 +1,11 @@
+//this will not work in IE
+//but it exposes variables in css for the current admin bar height
+:root {
+    --admin-bar-height: 32px;
+}
+
+@media screen and (max-width: 782px) {
+    :root {
+        --admin-bar-height: 46px;
+    }
+}

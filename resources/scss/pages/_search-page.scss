@@ -1,0 +1,9 @@
+.search-page {
+    &__title {
+        @apply text-4xl text-center mb-5;
+    }
+
+    &__form {
+        @apply flex justify-center;
+    }
+}
